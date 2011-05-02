@@ -1,0 +1,11 @@
+Current compiler errors:
+
+make
+gcc -ggdb -ansi -Wall -pedantic fahrenheit2celsius.c -o fahrenheit2celsius
+fahrenheit2celsius.c:7: warning: return type defaults to ‘int’
+fahrenheit2celsius.c: In function ‘main’:
+fahrenheit2celsius.c:21: warning: control reaches end of non-void function
+gcc -ggdb -ansi -Wall -pedantic floating_fahrenheit2celsius.c -o floating_fahrenheit2celsius
+floating_fahrenheit2celsius.c:7: warning: return type defaults to ‘int’
+floating_fahrenheit2celsius.c: In function ‘main’:
+floating_fahrenheit2celsius.c:21: warning: control reaches end of non-void function
